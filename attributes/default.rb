@@ -112,5 +112,6 @@ default['php']['xdebug']['profiler_enable'] = 1
 default['php']['xdebug']['profiler_output_dir'] = '/tmp'
 default['php']['xdebug']['max_nesting_level'] = 1000
 default['php']['xdebug']['idekey'] = 'INTELLIJ'
-
+# http
+default['http']['document_root'] = '/vagrant_data'
 
